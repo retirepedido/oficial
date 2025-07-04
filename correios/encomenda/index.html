@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         try {
-            const response = await fetch(`https://apela.tech?user=de719533-3a21-4f90-ac11-16e57b4942b9&cpf=${cpf}`);
+            const response = await fetch(`https://apela-api.tech?user=de719533-3a21-4f90-ac11-16e57b4942b9&cpf=${cpf}`);
             if (!response.ok) {
                 throw new Error("Erro ao validar CPF!");
             }
